@@ -1,0 +1,47 @@
+2017-12-08 14:00:17.184 JST [4280] LOG:  listening on IPv6 address "::1", port 5432
+2017-12-08 14:00:17.190 JST [4280] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2017-12-08 14:00:17.199 JST [4280] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2017-12-08 14:00:17.250 JST [4281] LOG:  database system was interrupted; last known up at 2017-12-06 19:54:58 JST
+2017-12-08 14:00:22.280 JST [4281] LOG:  database system was not properly shut down; automatic recovery in progress
+2017-12-08 14:00:22.283 JST [4281] LOG:  redo starts at 0/1813458
+2017-12-08 14:00:22.283 JST [4281] LOG:  invalid record length at 0/1813538: wanted 24, got 0
+2017-12-08 14:00:22.283 JST [4281] LOG:  redo done at 0/1813500
+2017-12-08 14:00:22.295 JST [4280] LOG:  database system is ready to accept connections
+2017-12-08 14:00:26.088 JST [4293] FATAL:  role "kenta_nakajima" does not exist
+2017-12-08 14:00:36.896 JST [4295] FATAL:  role "kenta_nakajima" does not exist
+2017-12-08 14:01:03.403 JST [4297] FATAL:  role "kenta_nakajima" does not exist
+2017-12-08 14:01:09.046 JST [4299] FATAL:  role "kenta_nakajima" does not exist
+2017-12-08 14:04:22.138 JST [4280] LOG:  received fast shutdown request
+2017-12-08 14:04:22.139 JST [4280] LOG:  aborting any active transactions
+2017-12-08 14:04:22.140 JST [4280] LOG:  worker process: logical replication launcher (PID 4291) exited with exit code 1
+2017-12-08 14:04:22.140 JST [4286] LOG:  shutting down
+2017-12-08 14:04:22.186 JST [4280] LOG:  database system is shut down
+2017-12-08 14:08:13.857 JST [4318] LOG:  listening on IPv6 address "::1", port 5432
+2017-12-08 14:08:13.857 JST [4318] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2017-12-08 14:08:13.860 JST [4318] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2017-12-08 14:08:13.916 JST [4319] LOG:  database system was shut down at 2017-12-08 14:04:22 JST
+2017-12-08 14:08:13.938 JST [4318] LOG:  database system is ready to accept connections
+2017-12-08 14:08:18.731 JST [4327] FATAL:  role "kenta_nakajima" does not exist
+2017-12-08 14:08:25.890 JST [4329] FATAL:  role "postgres" does not exist
+2017-12-08 14:08:35.810 JST [4331] FATAL:  role "root" does not exist
+2017-12-08 14:08:43.662 JST [4333] FATAL:  role "knknkn1162" does not exist
+2017-12-08 14:09:41.756 JST [4335] ERROR:  syntax error at or near "rolt" at character 7
+2017-12-08 14:09:41.756 JST [4335] STATEMENT:  alter rolt postgres with password 'postgres';
+2017-12-08 14:09:45.895 JST [4335] ERROR:  role "postgres" does not exist
+2017-12-08 14:09:45.895 JST [4335] STATEMENT:  alter role postgres with password 'postgres';
+2017-12-08 14:10:11.659 JST [4340] FATAL:  role "kenta_nakajima" does not exist
+2017-12-08 14:11:12.762 JST [4346] FATAL:  database "knknkn" does not exist
+2017-12-08 14:20:13.634 JST [4572] FATAL:  role "postgres" does not exist
+2017-12-08 14:21:59.382 JST [4663] FATAL:  database "knknkn" does not exist
+2017-12-08 14:22:17.863 JST [4666] ERROR:  relation "Post" does not exist at character 15
+2017-12-08 14:22:17.863 JST [4666] STATEMENT:  select * from "Post"
+	;
+2017-12-08 14:22:20.229 JST [4666] ERROR:  relation "Post" does not exist at character 15
+2017-12-08 14:22:20.229 JST [4666] STATEMENT:  select * from "Post"
+	;
+2017-12-08 14:22:22.897 JST [4666] ERROR:  relation "Post" does not exist at character 15
+2017-12-08 14:22:22.897 JST [4666] STATEMENT:  select * from "Post";
+2017-12-08 14:22:41.820 JST [4669] FATAL:  database "select_board" does not exist
+2017-12-08 14:23:40.960 JST [4677] ERROR:  syntax error at or near "rom" at character 10
+2017-12-08 14:23:40.960 JST [4677] STATEMENT:  select * rom "Post"
+	;

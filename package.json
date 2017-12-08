@@ -1,0 +1,19 @@
+{
+  "name": "secret-board",
+  "version": "1.0.0",
+  "description": "keijiban",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookies": "^0.5.1",
+    "http-auth": "^2.2.8",
+    "jade": "^1.11.0",
+    "pg": "^6.1.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^3.25.0"
+  }
+}
