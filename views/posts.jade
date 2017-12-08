@@ -31,7 +31,7 @@ body(class="container")
       div(class="card-block")
         
         //- <br>を解釈して、post.contentの中身を表示する
-        p!= post.content
+        p(style="white-space:pre;") #{post.content}
       div(class="card-footer")
         div 投稿日時: #{post.createdAt}
         - var isAdmin = (user === "admin")
